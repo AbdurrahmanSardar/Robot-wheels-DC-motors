@@ -7,7 +7,7 @@ int x=1;  // set x with 1 to move forward or 0 to move backward
 int z;    // declare variable      
 
 void setup()
-{ pinMode(12, OUTPUT);
+{ pinMode(12, OUTPUT); // set output pins which are 12,11,10,9
   pinMode(11, OUTPUT);
   pinMode(10, OUTPUT);
   pinMode(9, OUTPUT);}
