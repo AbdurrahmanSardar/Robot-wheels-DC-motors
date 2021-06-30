@@ -14,3 +14,9 @@ A potensiometer is added here to vary the speed, and here we have a variable x i
 I have found several circuits that have the same concept of using transformer, rectifier bridge,voltage regulator and capacitors. I have choosen **220/24V transformer** for stepping down the AC voltage. then, two capacitors (470 and 0.1 micro F), LM7812 voltage regulator to regulate 24v to 12V and finally two capacitors (0.1 and 220 micro F).
 Unfortunately I couldn't simulate the circuit. I have used this site to draw the circuit:
 [Charging circuit](https://crcit.net/c/70d00e45baa140718479b2c06b232305)
+
+### **ATTACHMENTS**
+
+Let me introduce all the attachments in this repository. There are several files with the following extensions: brd files, which is a simulation files from Tinker CAD simulation website. ino file, which is an Arduino code to control the DC motors. and there are PNG files to show the simulation before and after running the simulation and the code beside voltage regulator connection.
+
+If you are working on this in real life please check for the connection of each element carefully as shown in the simulation file of the pictures attached before running for the safety of your tools.
