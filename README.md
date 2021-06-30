@@ -6,11 +6,15 @@ H-bridge motor drive L293D has 16 pins, 4 input pins, 4 output pins, 4 ground pi
 *Note that this model is for robot wheels and that's why I have switched input & output pins of motor2 in order to that one motor rotates opposite the other (one clockwise and other anti clockwise) and coded it such way that they even move the robot forward or backward and not letting the robot to rotate in the same place*
 
 ### **BATTERY**
-Amoung all the components, DC motor has the largest volts which is (12-24V) while servo (4.8-7.2V), arduino (5V or 7-12V), that's why I have choosen 12V power supply but yet did't choose the ampacity of the battery.
+Amoung all the components, DC motor has the largest volts which is (12-24V) while servo (4.8-7.2V), arduino (5V or 7-12V), that's why I have choosen 12V power supply but yet did't choose the ampacity of the battery due to lack of information about amperage consumption of servo and DC motors in this model.
 
 ### **NO SPEED CONTROL MODEL**
 The code in this model is consisted of two variables x and y, set x=1, y=0 to move the robot forward or set x=0, y=1 to move the robot backward and connection is already explained above. The code can be modified without variables but this is how I though it would be better.
 
+https://www.tinkercad.com/things/gJXGIF3PHID-double-dc-motor-drive-using-l293d-/editel?sharecode=YEVZkY5P8HJD8JLh93t3U2AGznhJT64qG7qmwSldpgM
+
 ### **SPEED CONTROL MODEL**
 A potensiometer is added here to vary the speed, and here we have a variable x in the code, set x=1, to move the robot forward or set x=0, to move the robot backward. The problem here is that when revrsing the direction of the rotation the potentiometer is also reversed, chech the simulation file to undestand more.
+
+https://www.tinkercad.com/things/5u8cmRQaIrf-double-dc-motor-drive-using-l293d-control-the-speed/editel?sharecode=_XaLr2XnUgrqJ6hlp1PBPorn3rDyBt3A2h5BfCY3f9U
 
